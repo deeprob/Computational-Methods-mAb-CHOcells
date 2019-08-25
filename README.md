@@ -10,7 +10,7 @@ Glycosylation is one of the most important determinant of mAb product quality.
 While therapeutic mAbs can be synthesized in several different mammalian cell expression systems such as Chinese Hamster Ovary (CHO) cell lines, murine myeloma cell lines NS0, Sp2/0, over half of all currently approved mAbs are produced in Chinese Hamster Ovary (CHO) cell lines (data accessed online from Drugs@FDA).
 # What files does it have at this moment?
 Currently, I have developed a Macroscale model that takes initial concentrations of the different media of a particular cell line, the total cell density, the viable cell density, the antibody concentration and the total time span of experiments and it predicts the change of concentration of all those factors with time. In addition to that, I have also developed a separate Artificial Neural Network based model that takes in all the factors mentioned above throughout the whole time-span of the experiment and predicts the final relative glycan distribution of mAb. This model can also take in the values of different supplements added throughout the course of the experiment. As of this moment it is only compatible with 3 types of supplements: NH4cl, Gln, Asn. It is also agnostic to CDOptiCHO or AMBIC cell-line.
-# what files will I add eventually?
+# What files will I add eventually?
 1. While I have added a basic 1-hidden layer Neural Network model that is coded from scratch, I will add a more advanced multiple hidden layer Neural Network model.
 2. Right now, the model is static. I plan to make it dynamic with the help of a time series model. This will also be added soon.
 3. One of the reasons why I want the model to be dynamic is that I can control it using Reinforcement Learning. I will look into that in the future. 
