@@ -13,6 +13,6 @@ Currently, I have developed a Macroscale model that takes initial concentrations
 # What files will I add eventually?
 1. While I have added a basic 1-hidden layer Neural Network model that is coded from scratch, I will add a more advanced multiple hidden layer Neural Network model.
 2. Right now, the model is static. I plan to make it dynamic with the help of a time series model. This will also be added soon.
-3. One of the reasons why I want the model to be dynamic is that I can control it using Reinforcement Learning. I will look into that in the future. 
+3. One of the reasons why I want the model to be dynamic is to control it using Reinforcement Learning. I will look into that in the future. 
 # Licensing and rights.
 As of this moment, this is not an open-source project. So you can admire or criticize the model or the data but you cannot copy, modify or use it for your own benefit. But eventually, I will make it open-source.  
